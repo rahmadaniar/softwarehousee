@@ -23,22 +23,18 @@ body {
 #hero {
     background-size: cover;
     background-position: center;
-    color: rgb(87, 82, 82);
     text-align: center;
     padding: 80px 20px;
+    color: #c96b6b;
 }
 
 #hero h1 {
     font-size: 3rem;
     margin-bottom: 20px;
     font-weight: 700;
+    text-shadow: 2px 2px 5px #cccccc; 
 }
 
-#hero p {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 20px;
-}
 
 #hero .btn-primary {
     background-color: #c96b6b;
@@ -54,7 +50,7 @@ body {
 
 /* Header (Navbar) */
 .navbar-expand-lg {
-    background-color: rgb(175, 109, 120);
+    background-color: #af6d78;
     padding: 10px ;
 }
 
@@ -441,7 +437,7 @@ body {
 }
 
 .footer {
-    background-color: rgb(175, 109, 120);
+    background-color: #af6d78;
     color: white;
     text-align: center;
     padding: 1rem;
@@ -450,10 +446,6 @@ body {
 @media (max-width: 768px) {
     #hero h1 {
         font-size: 2rem;
-    }
-
-    #hero p {
-        font-size: 1.2rem;
     }
 
     #about h2,
@@ -509,10 +501,6 @@ body {
         font-size: 3rem;
     }
 
-    #hero p {
-        font-size: 1.4rem;
-    }
-
     #about h2,
     #services h2,
     #team h2,
@@ -566,10 +554,6 @@ body {
 @media (min-width: 1024px) {
     #hero h1 {
         font-size: 3.5rem;
-    }
-
-    #hero p {
-        font-size: 1.7rem;
     }
 
     #about h2,
