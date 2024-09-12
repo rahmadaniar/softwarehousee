@@ -23,7 +23,7 @@ body {
 #hero {
     background-size: cover;
     background-position: center;
-    color: rgb(87, 82, 82);
+    color: #c96b6b;
     text-align: center;
     padding: 80px 20px;
 }
@@ -32,12 +32,8 @@ body {
     font-size: 3rem;
     margin-bottom: 20px;
     font-weight: 700;
-}
+    text-shadow: 0px 2px 8px #c2c2c2;
 
-#hero p {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 20px;
 }
 
 #hero .btn-primary {
@@ -55,7 +51,11 @@ body {
 /* Header (Navbar) */
 .navbar-expand-lg {
     background-color: rgb(175, 109, 120);
-    padding: 10px;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .navbar-brand {
@@ -500,10 +500,6 @@ body {
         font-size: 2rem;
     }
 
-    #hero p {
-        font-size: 1.2rem;
-    }
-
     #about h2,
     #services h2,
     #team h2,
@@ -564,15 +560,15 @@ body {
     }
 
     #partnersCarousel .carousel-control-prev {
-        left: 0%; 
+        left: 0%;
     }
 
     #partnersCarousel .carousel-control-next {
-        right: 0%; 
+        right: 0%;
     }
 
     #team img {
-        width: 200px;
+        width: 250px;
         height: auto;
     }
 }
@@ -581,10 +577,6 @@ body {
 @media (min-width: 768px) and (max-width: 1024px) {
     #hero h1 {
         font-size: 3rem;
-    }
-
-    #hero p {
-        font-size: 1.4rem;
     }
 
     #about h2,
@@ -635,11 +627,12 @@ body {
     #testimonialCarousel .carousel-control-next {
         width: 15%;
     }
-    #testimonialCarousel .carousel-control-next{
+
+    #testimonialCarousel .carousel-control-next {
         right: -3%;
     }
 
-    #testimonialCarousel .carousel-control-prev{
+    #testimonialCarousel .carousel-control-prev {
         left: -3%;
     }
 
@@ -653,13 +646,13 @@ body {
         width: 50%;
     }
 
-       #team .col-md-3 {
-        width: 30%; 
-        margin: 0 5px; 
+    #team .col-md-3 {
+        width: 30%;
+        margin: 0 5px;
     }
 
     #team img {
-        width: 200px; 
+        width: 200px;
         height: auto;
         border-radius: 50%;
         object-fit: cover;
@@ -669,13 +662,14 @@ body {
     #partners .col-md-2 {
         width: 30%;
     }
+
     #partnersCarousel .carousel-control-prev,
     #partnersCarousel .carousel-control-next {
-        width: 15%; 
+        width: 15%;
     }
 
     #partnersCarousel .carousel-control-prev {
-        left: 1%; 
+        left: 1%;
     }
 
     #partnersCarousel .carousel-control-next {
@@ -687,10 +681,6 @@ body {
 @media (min-width: 1024px) {
     #hero h1 {
         font-size: 3.5rem;
-    }
-
-    #hero p {
-        font-size: 1.7rem;
     }
 
     #about h2,
@@ -731,14 +721,14 @@ body {
 
     #team .col-md-3 {
         width: 25%;
-        margin: 0 5px; 
+        margin: 0 5px;
     }
 
     #team img {
         width: 100%;
         height: auto;
         border-radius: 50%;
-        object-fit: cover; 
+        object-fit: cover;
     }
 
     #partners .col-md-2 {
@@ -747,14 +737,14 @@ body {
 
     #partnersCarousel .carousel-control-prev,
     #partnersCarousel .carousel-control-next {
-        width: 15%; 
+        width: 15%;
     }
 
     #partnersCarousel .carousel-control-prev {
-        left: 18%; 
+        left: 18%;
     }
 
     #partnersCarousel .carousel-control-next {
-        right: 18%; 
+        right: 18%;
     }
 }
