@@ -63,6 +63,7 @@
         style="background-image: url('assets/img/pexels-divinetechygirl-1181304.jpg'); height: 100vh;">
         <div class="container text-center">
             <h1>Selamat Datang di Amaa Software House</h1>
+            <p>Solusi Teknologi Terdepan untuk Bisnis Anda</p>
             <a href="#about" class="btn btn-primary">Pelajari Lebih Lanjut</a>
         </div>
     </section>
@@ -210,83 +211,119 @@
     <section id="testimonials" class="py-5 text-black">
         <div class="container">
             <h1 class="text-center mb-4">Testimoni Klien</h1>
-            <div class="row">
-                <div class="col-md-6 mb-4">
-                    <blockquote class="blockquote text-center">
-                        <h3>"Kualitas dan Profesionalisme"</h3>
-                        <p>"Amaa Software House benar-benar memahami kebutuhan kami. Proses pengembangan yang mereka
-                            lakukan
-                            sangat terstruktur dan profesional. Aplikasi yang mereka kembangkan untuk kami tidak hanya
-                            memenuhi
-                            ekspektasi tetapi juga melebihi standar industri. Kami sangat puas dengan hasilnya dan akan
-                            terus
-                            bekerja sama dengan mereka di masa depan."</p>
-                        <footer class="blockquote-footer">Client Dipodik, <cite title="Source Title">Perusahaan
-                                Indonesia Cerdas</cite></footer>
-                    </blockquote>
+
+            <!-- Bootstrap Carousel -->
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <blockquote class="blockquote text-center">
+                            <h3>"Kualitas dan Profesionalisme"</h3>
+                            <p>"Amaa Software House benar-benar memahami kebutuhan kami. Proses pengembangan yang mereka
+                                lakukan sangat terstruktur dan profesional. Aplikasi yang mereka kembangkan untuk kami
+                                tidak
+                                hanya memenuhi ekspektasi tetapi juga melebihi standar industri. Kami sangat puas dengan
+                                hasilnya dan akan terus bekerja sama dengan mereka di masa depan."</p>
+                            <footer class="blockquote-footer">Client Dipodik, <cite title="Source Title">Perusahaan
+                                    Indonesia Cerdas</cite></footer>
+                        </blockquote>
+                    </div>
+                    <div class="carousel-item">
+                        <blockquote class="blockquote text-center">
+                            <h3>"Dukungan yang Luar Biasa"</h3>
+                            <p>"Bekerja sama dengan Amaa Software House adalah keputusan terbaik yang pernah kami buat.
+                                Mereka tidak hanya memenuhi kebutuhan kami, tetapi juga memberikan solusi inovatif yang
+                                meningkatkan efisiensi operasional kami. Tim mereka sangat profesional, responsif, dan
+                                memahami setiap detail yang kami butuhkan. Kami akan kembali untuk proyek-proyek
+                                selanjutnya."</p>
+                            <footer class="blockquote-footer">Client Civitas, <cite title="Source Title">Perusahaan
+                                    Pelita Indah Jaya</cite></footer>
+                        </blockquote>
+                    </div>
+                    <div class="carousel-item">
+                        <blockquote class="blockquote text-center">
+                            <h3>"Solusi Inovatif dan Tepat Waktu"</h3>
+                            <p>"Tim di Amaa Software House memberikan solusi inovatif yang sangat tepat waktu. Mereka
+                                berhasil menghadirkan fitur yang kami butuhkan dengan kualitas yang sangat baik dan
+                                sesuai
+                                dengan anggaran. Komunikasi mereka sangat efektif dan selalu responsif terhadap
+                                permintaan
+                                kami. Kami merekomendasikan mereka untuk setiap proyek teknologi."</p>
+                            <footer class="blockquote-footer">Client BRI, <cite title="Source Title">Perusahaan Bank
+                                    Rakyat Indonesia</cite></footer>
+                        </blockquote>
+                    </div>
                 </div>
-                <div class="col-md-6 mb-4">
-                    <blockquote class="blockquote text-center">
-                        <h3>"Dukungan yang Luar Biasa"</h3>
-                        <p>"Bekerja sama dengan Amaa Software House adalah keputusan terbaik yang pernah kami buat.
-                            Mereka tidak hanya memenuhi kebutuhan kami, tetapi juga memberikan solusi inovatif yang
-                            meningkatkan efisiensi operasional kami. Tim mereka sangat profesional, responsif, dan
-                            memahami setiap detail yang kami butuhkan. Kami pasti
-                            akan kembali untuk proyek-proyek selanjutnya."
-                        </p>
-                        <footer class="blockquote-footer">Client Civitas, <cite title="Source Title">Perusahaan
-                                Pelita Indah Jaya</cite></footer>
-                    </blockquote>
-                </div>
-                <div class="col-md-12">
-                    <blockquote class="blockquote text-center">
-                        <h3>"Solusi Inovatif dan Tepat Waktu"</h3>
-                        <p>"Tim di Amaa Software House memberikan solusi inovatif yang sangat tepat waktu. Mereka
-                            berhasil
-                            menghadirkan fitur yang kami butuhkan dengan kualitas yang sangat baik dan sesuai dengan
-                            anggaran.
-                            Komunikasi mereka sangat efektif dan selalu responsif terhadap permintaan kami. Kami
-                            merekomendasikan
-                            mereka untuk setiap proyek teknologi."</p>
-                        <footer class="blockquote-footer">Client BRI, <cite title="Source Title">Perusahaan Bank Rakyat
-                                Indonesia</cite></footer>
-                    </blockquote>
-                </div>
+
+                <!-- Left and right controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </section>
 
-    <section id="partners" class="py-5">
+    <section id="partners" class="py-5 text-black">
         <div class="container text-center">
-            <h2>Mitra Kami</h2>
-            <div class="row justify-content-center">
-                <div class="col-md-2 col-6 mb-4">
-                    <img src="assets/img/pertamina.webp" alt="Partner 1" class="img-fluid">
-                </div>
-                <div class="col-md-2 col-6 mb-4">
-                    <img src="assets/img/brii.jpg" alt="Partner 2" class="img-fluid">
-                </div>
-                <div class="col-md-2 col-6 mb-4">
-                    <img src="assets/img/batu.webp" alt="Partner 3" class="img-fluid">
-                </div>
-                <div class="col-md-2 col-6 mb-4">
-                    <img src="assets/img/edu.jpg" alt="Partner 4" class="img-fluid">
-                </div>
-                <div class="col-md-2 col-6 mb-4">
-                    <img src="assets/img/kfc.png" alt="Partner 5" class="img-fluid">
-                </div>
-                <div class="col-md-2 col-6 mb-4">
-                    <img src="assets/img/telkom.jpg" alt="Partner 6" class="img-fluid">
-                </div>
-                <div class="col-md-2 col-6 mb-4">
-                    <img src="assets/img/gojek.png" alt="Partner 7" class="img-fluid">
-                </div>
-                <div class="col-md-2 col-6 mb-4">
-                    <img src="assets/img/sdm.png" alt="Partner 8" class="img-fluid">
-                </div>
+            <h2 class="mb-4">Mitra Kami</h2>
+
+            <!-- Bootstrap Carousel -->
+            <div id="partnersCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-md-2 col-6 mb-4">
+                                <img src="assets/img/pertamina.webp" alt="Partner 1" class="img-fluid">
+                            </div>
+                            <div class="col-md-2 col-6 mb-4">
+                                <img src="assets/img/brii.jpg" alt="Partner 2" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-md-2 col-6 mb-4">
+                                <img src="assets/img/batu.webp" alt="Partner 3" class="img-fluid">
+                            </div>
+                            <div class="col-md-2 col-6 mb-4">
+                                <img src="assets/img/edu.jpg" alt="Partner 4" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-md-2 col-6 mb-4">
+                                <img src="assets/img/pepsi.webp" alt="Partner 5" class="img-fluid">
+                            </div>
+                            <div class="col-md-2 col-6 mb-4">
+                                <img src="assets/img/andro.webp" alt="Partner 6" class="img-fluid">
+                            </div>
+                            </div>
+                            </div>
+                            
+
+                <!-- Left and right controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#partnersCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#partnersCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </section>
+
 
     <section id="careers" class="py-5 bg-light">
         <div class="container">
@@ -386,4 +423,3 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-</html>
