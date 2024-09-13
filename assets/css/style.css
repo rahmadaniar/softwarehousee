@@ -273,7 +273,6 @@ body {
     padding: 20px;
     border-radius: 5px;
     text-align: center;
-    transition: transform 0.3s ease;
     max-width: 800px;
     margin: 20px auto;
 }
@@ -294,10 +293,6 @@ body {
     width: 100%;
 }
 
-.blockquote:hover {
-    transform: translateY(-10px);
-}
-
 .blockquote-footer {
     font-size: 0.9rem;
     color: #666;
@@ -306,12 +301,16 @@ body {
     width: 100%;
 }
 
+#testimonials .carousel-inner {
+    max-width: 800px; 
+    margin: 0 auto; 
+    display: flex; 
+}
+
 #testimonialCarousel .carousel-control-prev-icon,
 #testimonialCarousel .carousel-control-next-icon {
     background-color: #AF6D78;
-    /* Warna latar belakang */
     border-radius: 50%;
-    /* Bentuk lingkaran */
 }
 
 #testimonialCarousel .carousel-control-prev,
@@ -329,13 +328,13 @@ body {
 
 /* Partners section */
 #partners {
-    background-color: #fff2f2;
+    background-color: #b91b1b;
     padding: 60px 20px;
 }
 
 #partners h2 {
     font-size: 2.5rem;
-    margin-bottom: 50px;
+    margin-bottom: 60px !important;
     color: #333;
     font-weight: 700;
     text-align: center;
@@ -382,31 +381,34 @@ body {
     font-size: 1.75rem;
     color: #333;
     font-weight: 600;
+    text-align: center;
 }
 
-#careers ul {
-    list-style: none;
-    padding-left: 0;
+#careers .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
 }
 
-#careers ul li {
-    font-size: 1.1rem;
-    color: #555;
+#careers .card:hover {
+    transform: translateY(-5px);
+}
+
+#careers .card-title {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+#careers .card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+#careers .card-body {
     display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
     align-items: center;
-    margin-bottom: 10px;
-}
-
-#careers ul li i {
-    font-size: 1.2rem;
-    color: #da93a8;
-    margin-right: 10px;
-}
-
-#careers .form-control {
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 15px;
+    text-align: center;
 }
 
 #careers .btn-primary {
@@ -414,6 +416,7 @@ body {
     border-color: #c47f7f;
     padding: 10px 20px;
     font-size: 1rem;
+    margin-top: auto; 
 }
 
 #careers .btn-primary:hover {
@@ -535,6 +538,11 @@ body {
         font-size: 1.5rem;
     }
 
+        .blockquote {
+            padding: 15px;
+            max-width: 100%;
+        }
+
     #testimonialCarousel .carousel-control-prev,
     #testimonialCarousel .carousel-control-next {
         width: 8%;
@@ -585,7 +593,6 @@ body {
     #portfolio h2,
     #testimonials h1,
     #partners h2,
-    #careers h2,
     #contact h2 {
         font-size: 2.5rem;
     }
@@ -604,9 +611,25 @@ body {
     #services p,
     #team p,
     #portfolio p,
-    #careers ul li,
     .blockquote p {
         font-size: 1.1rem;
+    }
+
+    #careers h2 {
+        font-size: 2rem;
+    }
+
+    #careers .card-title {
+        font-size: 1.4rem;
+    }
+
+    #careers .card-text {
+        font-size: 1rem;
+    }
+
+    #careers .btn {
+        font-size: 1rem;
+        padding: 12px 24px;
     }
 
     .blockquote {
