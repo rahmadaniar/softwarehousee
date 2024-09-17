@@ -340,6 +340,11 @@ body {
     text-align: center;
 }
 
+#partners .col-md-2 {
+    max-width: 100%;
+    margin: 0 10px;
+}
+
 #partners .img-fluid {
     max-width: 100%;
     height: auto;
