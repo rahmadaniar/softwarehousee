@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #cfb3b3;
+}
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+h1 {
+    text-align: center;
+    color: #c96f76;
+    font-weight: 800;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: 600;
+    color: #c96f76;
+}
+input[type="text"], input[type="email"], input[type="file"], textarea, select {
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #e78585;
+    border-radius: 4px;
+}
+button,
+.btn-primary{
+    background-color: #b63f5d;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover,
+.btn-primary:hover {
+    background-color: #af5156;
+}

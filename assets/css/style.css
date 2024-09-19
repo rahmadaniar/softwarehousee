@@ -302,9 +302,9 @@ body {
 }
 
 #testimonials .carousel-inner {
-    max-width: 800px; 
-    margin: 0 auto; 
-    display: flex; 
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
 }
 
 #testimonialCarousel .carousel-control-prev-icon,
@@ -391,11 +391,11 @@ body {
 
 #careers .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease-in-out;
+    transition: transform 0.3s ease;
 }
 
 #careers .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
 }
 
 #careers .card-title {
@@ -410,8 +410,8 @@ body {
 
 #careers .card-body {
     display: flex;
-    flex-direction: column; 
-    justify-content: space-between; 
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
 }
@@ -421,7 +421,7 @@ body {
     border-color: #c47f7f;
     padding: 10px 20px;
     font-size: 1rem;
-    margin-top: auto; 
+    margin-top: auto;
 }
 
 #careers .btn-primary:hover {
@@ -543,10 +543,10 @@ body {
         font-size: 1.5rem;
     }
 
-        .blockquote {
-            padding: 15px;
-            max-width: 100%;
-        }
+    .blockquote {
+        padding: 15px;
+        max-width: 100%;
+    }
 
     #testimonialCarousel .carousel-control-prev,
     #testimonialCarousel .carousel-control-next {
